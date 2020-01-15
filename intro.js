@@ -6,6 +6,7 @@ var headerElement = document.getElementById('header');
 headerElement.innerText = mySum;
 function addValues(first, second) {
   var sum = first + second;
+
   return sum;
 }
 
