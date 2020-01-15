@@ -3,40 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Chicken Tracker</title>
   </head>
   <body>
     <div class="grid border">
       <div class="top-left">
+        <p>Address</p>
+      </div>
+      <div class="top-right">
         <p>Calculate Tax</p>
         <div class="stack">
           <div class="top-left">
             <label for="cost">Cost</label>
             <input type="text" id="cost" />
           </div>
-          <div class="bot-left">
+          <div class="mid-left">
             <label for="tax-rate">Tax Rate</label>
             <input type="text" id="tax-rate" />
             <button>Calculate</button>
           </div>
         </div>
       </div>
-      <div class="top-right">
+      <div class="mid-left">
         <p>Calculate Volume</p>
         <div class="stack">
           <div class="top-left">
             <label for="radius">Radius</label>
             <input type="text" id="radius" />
           </div>
-          <div class="bot-left">
+          <div class="mid-left">
             <label for="height">Height</label>
             <input type="text" id="height" />
             <button>Calculate</button>
           </div>
         </div>
       </div>
-      <div class="bot-left">
+      <div class="mid-right">
         <p>Convert Celsius to Fahrenheit</p>
         <div class="stack">
           <div class="top-left">
@@ -44,14 +47,14 @@
             <input type="text" />
             <button onclick="convertCelsiusToFahrenheit()">Convert</button>
           </div>
-          <div class="bot-left">
+          <div class="mid-left">
             <label for="celsius">Fahrenheit Temperature</label>
             <input type="text" />
             <button onclick="convertFahrenheitToCelsius()">Convert</button>
           </div>
         </div>
       </div>
-      <div class="bot-right">
+      <div class="bot-left">
         <p>Calculate Distance Between 2 Points</p>
         <div class="grid">
           <div class="top-left">
@@ -62,11 +65,11 @@
             <label for="x2">X2</label>
             <input type="text" id="x2" />
           </div>
-          <div class="bot-left">
+          <div class="mid-left">
             <label for="y1">Y1</label>
             <input type="text" id="y1" />
           </div>
-          <div class="bot-right">
+          <div class="mid-right">
             <label for="y2">Y2</label>
             <input type="text" id="y2" />
             <button>Calculate</button>

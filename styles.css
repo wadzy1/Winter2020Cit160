@@ -5,9 +5,9 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 .stack {
   display: grid;
@@ -22,9 +22,16 @@
 .top-right {
   grid-area: 1 / 2 / 2 / 3;
 }
-.bot-left {
+.mid-left {
   grid-area: 2 / 1 / 3 / 2;
 }
-.bot-right {
+.mid-right {
   grid-area: 2 / 2 / 3 / 3;
+}
+.bot-left {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.bot-right {
+  grid-area: 3 / 2 / 4 / 3;
 }
