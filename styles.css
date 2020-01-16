@@ -31,7 +31,6 @@
 .bot-left {
   grid-area: 3 / 1 / 4 / 2;
 }
-
 .bot-right {
   grid-area: 3 / 2 / 4 / 3;
 }

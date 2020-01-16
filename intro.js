@@ -1,13 +1,12 @@
-// alert('Hello World');
-var mySum = addValues(2, 2);
-// console.log(mySum);
+function calculateTax() {
+  const taxRate = 0.06;
 
-var headerElement = document.getElementById('header');
-headerElement.innerText = mySum;
-function addValues(first, second) {
-  var sum = first + second;
-
-  return sum;
+  let totalCost = document.getElementById('cost').value;
+  let userTaxRate = document.getElementById('tax-rate').value;
+  if (!userTaxRate) {
+    userTaxRate = taxRate;
+  }
+  //1.06 * 10
+  let costWithTax = (+userTaxRate + 1) * totalCost;
+  document.getElementById('answer').innerText = costWithTax.toFixed(2);
 }
-
-sum = 6;
