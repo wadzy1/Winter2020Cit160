@@ -3,105 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Javascript Basics</title>
+    <title>Homework Part 2</title>
   </head>
   <body>
-    <div class="grid border">
-      <div class="top-left">
-        <p>Address</p>
-        <div class="grid">
-          <div class="top-left">
-            <label for="name">Name</label>
-            <input type="text" id="name" />
-          </div>
-          <div class="mid-left">
-            <label for="street">Street</label>
-            <input type="text" id="street" />
-          </div>
-          <div class="top-right">
-            <label for="state">State</label>
-            <input type="text" id="state" />
-          </div>
-          <div class="mid-right">
-            <label for="zip">Zip Code</label>
-            <input type="zip" id="zip" />
-            <button>Submit</button>
-          </div>
-          <div class="bot-left">
-            <label for="city">City</label>
-            <input type="text" id="city" />
-          </div>
-          <div class="bot-right" id="address-output"></div>
-        </div>
-      </div>
-      <div class="top-right">
-        <p>Calculate Tax</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="cost">Cost</label>
-            <input type="text" id="cost" />
-          </div>
-          <div class="mid-left">
-            <label for="tax-rate">Tax Rate</label>
-            <input type="text" id="tax-rate" />
-            <button onclick="calculateTax()">Calculate</button>
-            <p id="answer"></p>
-          </div>
-        </div>
-      </div>
-      <div class="mid-left">
-        <p>Calculate Volume</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="radius">Radius</label>
-            <input type="text" id="radius" />
-          </div>
-          <div class="mid-left">
-            <label for="height">Height</label>
-            <input type="text" id="height" />
-            <button>Calculate</button>
-          </div>
-        </div>
-      </div>
-      <div class="mid-right">
-        <p>Convert Celsius to Fahrenheit</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="celsius">Celsuis Temperature</label>
-            <input type="text" />
-            <button onclick="convertCelsiusToFahrenheit()">Convert</button>
-          </div>
-          <div class="mid-left">
-            <label for="celsius">Fahrenheit Temperature</label>
-            <input type="text" />
-            <button onclick="convertFahrenheitToCelsius()">Convert</button>
-          </div>
-        </div>
-      </div>
-      <div class="bot-left">
-        <p>Calculate Distance Between 2 Points</p>
-        <div class="grid">
-          <div class="top-left">
-            <label for="x1">X1</label>
-            <input type="text" id="x1" />
-          </div>
-          <div class="top-right">
-            <label for="x2">X2</label>
-            <input type="text" id="x2" />
-          </div>
-          <div class="mid-left">
-            <label for="y1">Y1</label>
-            <input type="text" id="y1" />
-          </div>
-          <div class="mid-right">
-            <label for="y2">Y2</label>
-            <input type="text" id="y2" />
-            <button>Calculate</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <input type="text" id="cost" />
+    <div id="my-div"></div>
   </body>
-  <script src="./intro.js"></script>
+  <script src="intro.js"></script>
+  <script>
+    let totalCost = document.getElementById('cost').value;
+  </script>
 </html>
