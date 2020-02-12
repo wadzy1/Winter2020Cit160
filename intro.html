@@ -3,105 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Javascript Basics</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
   </head>
-  <body>
-    <div class="grid border">
-      <div class="top-left">
-        <p>Address</p>
-        <div class="grid">
-          <div class="top-left">
-            <label for="name">Name</label>
-            <input type="text" id="name" />
-          </div>
-          <div class="mid-left">
-            <label for="street">Street</label>
-            <input type="text" id="street" />
-          </div>
-          <div class="top-right">
-            <label for="state">State</label>
-            <input type="text" id="state" />
-          </div>
-          <div class="mid-right">
-            <label for="zip">Zip Code</label>
-            <input type="zip" id="zip" />
-            <button>Submit</button>
-          </div>
-          <div class="bot-left">
-            <label for="city">City</label>
-            <input type="text" id="city" />
-          </div>
-          <div class="bot-right" id="address-output"></div>
-        </div>
-      </div>
-      <div class="top-right">
-        <p>Calculate Tax</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="cost">Cost</label>
-            <input type="text" id="cost" />
-          </div>
-          <div class="mid-left">
-            <label for="tax-rate">Tax Rate</label>
-            <input type="text" id="tax-rate" />
-            <button onclick="calculateTax()">Calculate</button>
-            <p id="answer"></p>
-          </div>
-        </div>
-      </div>
-      <div class="mid-left">
-        <p>Calculate Volume</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="radius">Radius</label>
-            <input type="text" id="radius" />
-          </div>
-          <div class="mid-left">
-            <label for="height">Height</label>
-            <input type="text" id="height" />
-            <button>Calculate</button>
-          </div>
-        </div>
-      </div>
-      <div class="mid-right">
-        <p>Convert Celsius to Fahrenheit</p>
-        <div class="stack">
-          <div class="top-left">
-            <label for="celsius">Celsuis Temperature</label>
-            <input type="text" />
-            <button onclick="convertCelsiusToFahrenheit()">Convert</button>
-          </div>
-          <div class="mid-left">
-            <label for="celsius">Fahrenheit Temperature</label>
-            <input type="text" />
-            <button onclick="convertFahrenheitToCelsius()">Convert</button>
-          </div>
-        </div>
-      </div>
-      <div class="bot-left">
-        <p>Calculate Distance Between 2 Points</p>
-        <div class="grid">
-          <div class="top-left">
-            <label for="x1">X1</label>
-            <input type="text" id="x1" />
-          </div>
-          <div class="top-right">
-            <label for="x2">X2</label>
-            <input type="text" id="x2" />
-          </div>
-          <div class="mid-left">
-            <label for="y1">Y1</label>
-            <input type="text" id="y1" />
-          </div>
-          <div class="mid-right">
-            <label for="y2">Y2</label>
-            <input type="text" id="y2" />
-            <button>Calculate</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script src="./intro.js"></script>
+  <body></body>
+  <script>
+    let students = [
+      { id: 1, name: 'Obi-Wan Kenobi', major: 'Criminal Justice', gpa: '3.95' },
+      {
+        id: 2,
+        name: 'Darth Vader',
+        major: 'Ancient Religious Studies',
+        gpa: '3.5'
+      },
+      { id: 3, name: 'Luke Skywalker', major: 'Space Aviation', gpa: '3.5' },
+      {
+        id: 4,
+        name: 'Han Solo',
+        major: 'Supply Chain Management',
+        gpa: '3.95'
+      },
+      {
+        id: 5,
+        name: 'Lei Organa',
+        major: 'Intergalactic Relations',
+        gpa: '3.95'
+      },
+      { id: 6, name: 'Yoda', major: 'Philosophy', gpa: '4.0' },
+      { id: 7, name: 'Chewbacca', major: 'Aircraft Maintenance', gpa: '3.9' },
+      {
+        id: 8,
+        name: 'Kylo Ren',
+        major: 'Ancient Religious Studies',
+        gpa: '3.0'
+      },
+      {
+        id: 9,
+        name: 'General Grievous',
+        major: 'Computer Science',
+        gpa: '3.5'
+      },
+      { id: 10, name: 'Lando', major: 'Business Management', gpa: '4.0' },
+      { id: 11, name: 'Mando', major: 'Criminal Justice', gpa: '3.95' },
+      { id: 12, name: 'The Child', major: 'Philosophy', gpa: '3.0' },
+      {
+        id: 13,
+        name: 'Padmé Amidala',
+        major: 'Intergalactic Relations',
+        gpa: '2.95'
+      },
+      { id: 14, name: 'Jar Jar Binks', major: 'Comedic Acting', gpa: '2.0' },
+      {
+        id: 16,
+        name: 'Darth Sidious',
+        major: 'Ancient Religious Studies',
+        gpa: '3.5'
+      }
+    ];
+  </script>
 </html>
